@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PerfectNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-28T22:16:06" hostname="DESKTOP-TT9B3MT" time="0.011">
+  <properties/>
+  <testcase name="getPerfectNumberSeriesBetweenOneAndThousand()" classname="PerfectNumberTests" time="0.011"/>
+  <system-out><![CDATA[New test case is starting now
+Test case is ended
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

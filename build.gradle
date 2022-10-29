@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.worldline'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    implementation 'org.apache.cxf:cxf-rt-frontend-jaxrs:3.0.16'
+    implementation 'org.apache.cxf:cxf-rt-transports-http-jetty:3.0.16'
+    implementation 'org.apache.cxf:cxf-rt-rs-service-description-swagger:3.1.11'
+    implementation 'org.webjars:swagger-ui:2.2.10-1'
+    implementation 'javax.xml.ws:jaxws-api:2.3.1'
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
+    implementation 'org.eclipse.jetty:jetty-server:9.2.2.v20140723'
+    implementation 'org.eclipse.jetty:jetty-servlets:9.2.2.v20140723'
+    implementation 'org.eclipse.jetty:jetty-webapp:9.2.2.v20140723'
+    implementation 'javax.json:javax.json-api:1.0'
+    implementation 'org.glassfish:javax.json:1.0.4'
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.2'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.2'
+    implementation 'org.glassfish.jersey.media:jersey-media-json-binding:3.1.0-M2'
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'org.mockito:mockito-junit-jupiter:4.8.0'
+}
+
+test {
+    useJUnitPlatform()
+}
