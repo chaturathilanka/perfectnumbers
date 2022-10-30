@@ -26,7 +26,7 @@ check the api responses
 `![img.png](img.png)
 
 8) I have created the Rest Assured project to integration test and it is calling the rest apis 
-and getting the responses as follows
+and getting the responses as follows. git hub link - https://github.com/chaturathilanka/perfect-number-integration-test
 
 ![image](https://user-images.githubusercontent.com/13113220/198901430-d5ac25c5-3406-4b51-ba8a-c93e098eff8e.png)
 
