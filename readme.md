@@ -25,7 +25,9 @@ the perfect numbers as follows. Before creating the React UI i have used postman
 check the api responses
 
 8) I have created the Rest Assured project to integration test and it is calling the rest apis 
-and getting the responses
+and getting the responses as follows
+
+![image](https://user-images.githubusercontent.com/13113220/198901430-d5ac25c5-3406-4b51-ba8a-c93e098eff8e.png)
 
 To run and do the local communication between back end and front end react UI CORS(disable security) policy must be disabled for the particular browser
 
