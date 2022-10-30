@@ -23,6 +23,7 @@ time issue occurred for the task. I should change it to google Auth2 which the b
 7) I have created a small react UI with the GET rest calls to get 
 the perfect numbers as follows. Before creating the React UI i have used postman to 
 check the api responses
+`![img.png](img.png)
 
 8) I have created the Rest Assured project to integration test and it is calling the rest apis 
 and getting the responses as follows
@@ -34,5 +35,5 @@ To run and do the local communication between back end and front end react UI CO
 The command to disable security is as follows 
 
 `"C:\folder path to chrome exe\chrome.exe" --disable-web-security --user-data-dir=C:\path to new browser instance with disabled security
-`![img.png](img.png)
+
 
