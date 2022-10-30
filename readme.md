@@ -24,6 +24,9 @@ time issue occurred for the task. I should change it to google Auth2 which the b
 the perfect numbers as follows. Before creating the React UI i have used postman to 
 check the api responses
 
+8) I have created the Rest Assured project to integration test and it is calling the rest apis 
+and getting the responses
+
 To run and do the local communication between back end and front end react UI CORS(disable security) policy must be disabled for the particular browser
 
 The command to disable security is as follows 
